@@ -1,0 +1,7 @@
+.main {
+    grid-area: main;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    color: #557A95;
+}
