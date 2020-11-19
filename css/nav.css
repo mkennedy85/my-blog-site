@@ -1,31 +1,26 @@
 .nav {
     display: flex;
-    background-color: #7395AE;
-    margin: 0;
+    justify-content: center;
     overflow: hidden;
     background-color: #7395AE;
-    height: 30px;
+    height: auto;
 }
 
 .nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 5px;
+    padding: 2px;
     overflow: hidden;
     background-color: #7395AE;
 }
   
 .nav li {
     float: left;
+    font-size: large;
 }
   
 .nav li a {
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-  
-.nav li a:hover {
-    background-color: #5D5C61;
 }

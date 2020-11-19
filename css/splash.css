@@ -1,0 +1,13 @@
+.splash {
+    grid-area: splash;
+    background-color: #557A95;
+    padding: 14px 16px;
+    color: #FFFFFF;
+    padding: 0%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    opacity: 50%;
+}

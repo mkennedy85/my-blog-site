@@ -1,0 +1,9 @@
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 14px 16px;
+    color: #557A95;
+    background-image: url('/images/MeMoji_Mike.png');
+}

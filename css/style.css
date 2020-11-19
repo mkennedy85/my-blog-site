@@ -1,12 +1,13 @@
 @import "nav.css";
 @import "footer.css";
-@import "content.css";
+@import "main.css";
+@import "splash.css";
 
 html body {
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 3vw;
+    font-size: 2rem;
 }
 
 .container {
@@ -23,15 +24,8 @@ html body {
         "ft";
     margin: 0;
 }
-  
-.splash {
-    grid-area: splash;
-    background-color: #557A95;
-    padding: 14px 16px;
-    color: white;
-}
 
-@media(min-width:900px) {
+@media(min-width:1000px) {
     .container {
         display: grid;
         width: 100%;
@@ -45,6 +39,68 @@ html body {
             "main"
             "ft";
         margin: 0;
-        font-size: 1vw;
     }
+
+    html body {
+        font-size: 1rem;
+    }
+}
+
+/* Modify this */
+.animal-card-master {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 5px 5px 2px 1px rgb(240, 240, 240);
+}
+
+.animal-card-name {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.animal-card-image {
+    width: 300px;
+    height: 200px;
+}
+
+.animal-card-fact {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.animal-card-info {
+    width: 299px;
+    border: 1px solid rgb(220, 220, 220);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.animal-card-info p {
+    font-size: 14px;
+}
+
+.animal-card-info ul {
+    padding: 0px;
+}
+
+.animal-card-info li {
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+}
+
+.animal-card-info li span {
+    font-weight: bold;
+}
+
+.animal-card-description {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
 }
