@@ -46,60 +46,40 @@ html body {
     }
 }
 
-/* Modify this */
-.animal-card-master {
-    width: 90vw;
+.post-master {
+    /* width: 90vw; */
     margin-left: 5vw;
     margin-right: 5vw;
     border: 1px solid rgb(200, 200, 200);
     box-shadow: 5px 5px 2px 1px rgb(240, 240, 240);
 }
 
-.animal-card-name {
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.animal-card-image {
-    width: 300px;
-    height: 200px;
-}
-
-.animal-card-fact {
-    font-style: italic;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.animal-card-info {
-    width: 299px;
+.post-info {
+    /* width: 299px; */
     border: 1px solid rgb(220, 220, 220);
     margin: 1rem;
     padding: 1rem;
 }
 
-.animal-card-info p {
+.post-info p {
     font-size: 14px;
 }
 
-.animal-card-info ul {
+.post-info ul {
     padding: 0px;
 }
 
-.animal-card-info li {
+.post-info li {
     list-style: none;
     text-align: left;
     font-size: 14px;
 }
 
-.animal-card-info li span {
+.post-info li span {
     font-weight: bold;
 }
 
-.animal-card-description {
+.post-description {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 14px;
