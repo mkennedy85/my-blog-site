@@ -6,7 +6,7 @@
     height: 100%;
     min-height: 100vh;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(2, auto) 1fr auto;
+    grid-template-rows: repeat(3, auto) 1fr auto;
     grid-template-areas:
         "nav"
         "header"
@@ -21,6 +21,7 @@
     background-color: #5D5C61;
     padding: 14px 16px;
     color: white;
+    text-align: center;
 }
 
 .author {
