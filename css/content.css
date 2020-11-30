@@ -1,5 +1,5 @@
 .content {
-    grid-area: main;
+    grid-area: content;
     display: flex;
     flex-direction: row;
     text-align: center;
