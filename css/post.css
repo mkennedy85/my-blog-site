@@ -17,7 +17,7 @@
 }
 
 .header {
-    grid-area: author;
+    grid-area: header;
     background-color: #5D5C61;
     padding: 14px 16px;
     color: white;
