@@ -93,3 +93,8 @@ html body {
     margin-right: 10px;
     font-size: 14px;
 }
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem
+}
