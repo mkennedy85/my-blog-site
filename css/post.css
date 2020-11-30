@@ -9,10 +9,18 @@
     grid-template-rows: repeat(2, auto) 1fr auto;
     grid-template-areas:
         "nav"
+        "header"
         "author"
         "content"
         "ft";
     margin: 0;
+}
+
+.header {
+    grid-area: author;
+    background-color: #5D5C61;
+    padding: 14px 16px;
+    color: white;
 }
 
 .author {
@@ -32,6 +40,7 @@
         grid-template-rows: repeat(2, auto) 1fr auto;
         grid-template-areas:
             "nav"
+            "header"
             "author"
             "content"
             "ft";
