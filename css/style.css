@@ -47,7 +47,7 @@ html body {
 }
 
 .animal-card-master {
-    /* width: 90vw; */
+    width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
     border: 1px solid rgb(200, 200, 200);
@@ -63,7 +63,6 @@ html body {
 }
 
 .animal-card-info {
-    /* width: 299px; */
     border: 1px solid rgb(220, 220, 220);
     margin: 1rem;
     padding: 1rem;
