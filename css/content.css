@@ -1,4 +1,4 @@
-.main {
+.content {
     grid-area: main;
     display: flex;
     flex-direction: row;

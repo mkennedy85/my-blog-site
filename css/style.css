@@ -1,6 +1,6 @@
 @import "nav.css";
 @import "footer.css";
-@import "main.css";
+@import "content.css";
 @import "splash.css";
 
 html body {
@@ -20,7 +20,7 @@ html body {
     grid-template-areas:
         "nav"
         "splash"
-        "main"
+        "content"
         "ft";
     margin: 0;
 }
@@ -36,7 +36,7 @@ html body {
         grid-template-areas:
             "nav"
             "splash"
-            "main"
+            "content"
             "ft";
         margin: 0;
     }

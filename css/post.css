@@ -10,7 +10,7 @@
     grid-template-areas:
         "nav"
         "author"
-        "main"
+        "content"
         "ft";
     margin: 0;
 }
@@ -33,7 +33,7 @@
         grid-template-areas:
             "nav"
             "author"
-            "main"
+            "content"
             "ft";
         margin: 0;
     }
