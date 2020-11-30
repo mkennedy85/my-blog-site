@@ -46,7 +46,7 @@ html body {
     }
 }
 
-.post-master {
+.animal-card-master {
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -54,32 +54,51 @@ html body {
     box-shadow: 5px 5px 2px 1px rgb(240, 240, 240);
 }
 
-.post-info {
-    width: 299px;
+.animal-card-name {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.animal-card-image {
+    width: 300px;
+    height: 200px;
+}
+
+.animal-card-fact {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.animal-card-info {
+    /* width: 299px; */
     border: 1px solid rgb(220, 220, 220);
     margin: 1rem;
     padding: 1rem;
 }
 
-.post-info p {
+.animal-card-info p {
     font-size: 14px;
 }
 
-.post-info ul {
+.animal-card-info ul {
     padding: 0px;
 }
 
-.post-info li {
+.animal-card-info li {
     list-style: none;
     text-align: left;
     font-size: 14px;
 }
 
-.post-info li span {
+.animal-card-info li span {
     font-weight: bold;
 }
 
-.post-description {
+.animal-card-description {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 14px;
