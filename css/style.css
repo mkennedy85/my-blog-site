@@ -47,7 +47,7 @@ html body {
 }
 
 .animal-card-master {
-    width: 90vw;
+    /* width: 90vw; */
     margin-left: 5vw;
     margin-right: 5vw;
     border: 1px solid rgb(200, 200, 200);
@@ -60,17 +60,6 @@ html body {
     margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.animal-card-image {
-    /* width: 300px; */
-    height: 200px;
-}
-
-.animal-card-fact {
-    font-style: italic;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .animal-card-info {
