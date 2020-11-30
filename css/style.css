@@ -50,6 +50,8 @@ html body {
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     border: 1px solid rgb(200, 200, 200);
     box-shadow: 5px 5px 2px 1px rgb(240, 240, 240);
 }
