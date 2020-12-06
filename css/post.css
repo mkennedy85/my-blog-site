@@ -31,7 +31,7 @@
     color: white;
 }
 
-@media(min-width:900px) {
+/* @media(min-width:900px) {
     .container {
         display: grid;
         width: 100%;
@@ -47,4 +47,4 @@
             "ft";
         margin: 0;
     }
-}
+} */

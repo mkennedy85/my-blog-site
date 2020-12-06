@@ -2,6 +2,7 @@
 @import "footer.css";
 @import "content.css";
 @import "splash.css";
+@import "mobile.css";
 
 html body {
     margin: 0;
@@ -24,7 +25,7 @@ html body {
     margin: 0;
 }
 
-@media(min-width:1000px) {
+/* @media(min-width:1000px) {
     .container {
         display: grid;
         width: 100%;
@@ -43,7 +44,7 @@ html body {
     html body {
         font-size: 1rem;
     }
-}
+} */
 
 .post-master {
     width: 90vw;
