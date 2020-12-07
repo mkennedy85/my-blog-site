@@ -6,8 +6,10 @@
     padding: 0%;
 }
 
-img {
+.splash img {
     display: block;
     margin: auto;
     opacity: 50%;
 }
+
+@import "mobile.css";

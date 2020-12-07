@@ -20,4 +20,8 @@
     html body {
         font-size: 1rem;
     }
+
+    .splash {
+      display: none;
+    }
 }
