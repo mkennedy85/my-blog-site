@@ -1,13 +1,3 @@
-@media only screen and (max-width: 1000px) { 
-    .nav {
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-        background-color: #44d420;
-        height: auto;
-    }
-}
-
 .nav {
     display: flex;
     justify-content: center;
