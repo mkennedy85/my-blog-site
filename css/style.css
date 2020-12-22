@@ -61,6 +61,13 @@ html body {
     font-size: 14px;
 }
 
+.post-info img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .post-info li span {
     font-weight: bold;
 }
@@ -97,5 +104,9 @@ h1 {
 
     .splash {
       display: none;
+    }
+
+    .post-info img {
+        display: none;
     }
 }
