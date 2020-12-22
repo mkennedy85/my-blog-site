@@ -6,12 +6,13 @@
     height: 100%;
     min-height: 100vh;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto) 1fr auto;
+    grid-template-rows: repeat(3, auto) 1fr repeat(2, auto);
     grid-template-areas:
         "nav"
         "author"
         "header"
         "content"
+        "social"
         "footer";
     margin: 0;
 }
@@ -51,4 +52,8 @@
 
 .author p {
     font-size: medium;
+}
+
+.social {
+    grid-area: social;
 }
