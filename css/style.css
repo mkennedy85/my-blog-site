@@ -122,4 +122,16 @@ h1 {
           "footer";
       margin: 0;
     }
+
+    html body {
+        font-size: 1rem;
+    }
+
+    .splash {
+      display: none;
+    }
+
+    .post-info img {
+        display: none;
+    }
 }
