@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: #7395AE;
+    background-color: #7395ae;
     height: auto;
 }
 
@@ -12,13 +12,13 @@
     padding: 2px;
     overflow: hidden;
 }
-  
+
 .nav li {
     float: left;
 }
-  
+
 .nav li a {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

@@ -19,7 +19,7 @@
 
 .header {
     grid-area: header;
-    background-color: #5D5C61;
+    background-color: #5d5c61;
     padding: 0px 8px 0px 8px;
     color: white;
     text-align: center;
@@ -31,7 +31,7 @@
 
 .author {
     grid-area: author;
-    background-color: #557A95;
+    background-color: #557a95;
     padding: 0px 8px 0px 8px;
     color: white;
 }
@@ -52,6 +52,13 @@
 
 .author p {
     font-size: medium;
+}
+
+.content blockquote {
+    border: #5d5c61;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
 }
 
 .social {
