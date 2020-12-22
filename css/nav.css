@@ -1,4 +1,5 @@
 .nav {
+    grid-area: nav;
     display: flex;
     justify-content: center;
     overflow: hidden;

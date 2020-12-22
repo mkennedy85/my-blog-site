@@ -10,5 +10,9 @@
     display: block;
     margin: auto;
     opacity: 50%;
-    width: 50vw;
+    width: 500px;
+}
+
+.splash figcaption {
+    text-align: center;
 }
